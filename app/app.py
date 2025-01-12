@@ -29,7 +29,7 @@ class WeatherApp:
         """
         self.controller.register_callbacks()
 
-    def run(self, debug=True):
+    def run(self, debug=False):
         """
         Run the application.
         """
