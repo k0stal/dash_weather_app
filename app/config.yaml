@@ -1,0 +1,44 @@
+quantities:
+  - Air Temperature
+  - Ground Temperature
+  - Air Humidity
+  - Precipitation
+
+forecast_settings:
+  forecast_range: 11
+  forecast_step: 6
+
+default_view:
+  quantity: Air Temperature
+  station: 0
+  time: 0
+  model: 0
+
+graph_colors:
+  - red
+  - maroon
+  - green
+  - blue
+
+contour_color_schemes:
+  - plasma
+  - viridis
+  - inferno
+  - cividis
+
+knn_model_params:
+  n_neighbors: 5
+  algorithm: auto
+  weights: distance
+
+svr_model_params:
+  C: 10
+  kernel: rbf
+  degree: 4
+  gamma: auto
+
+gbr_model_params:
+  learning_rate: 0.1
+  n_estimators: 50
+  subsample: 1.0
+
