@@ -1,3 +1,5 @@
+For detailed description of the project read the **Report.pdf** file.
+
 The project consists of two parts.
 
 The first is a Jupyter Notebook, which contains data processing from meteorological stations. It also deals with model creation based on GFS data and data measured at meteorological stations. All models are ultimately compared with each other as well as with the reference GFS model. At the end, it includes the preparation of sample data for demonstrating the visualization application.
